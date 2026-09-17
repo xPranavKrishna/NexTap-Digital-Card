@@ -1,0 +1,46 @@
+name: nextap
+description: "NexTap - Your identity, one tap away."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # UI
+  cupertino_icons: ^1.0.8
+  font_awesome_flutter: ^11.0.0
+
+  # storage
+  shared_preferences: ^2.2.3
+
+  # QR
+  qr_flutter: ^4.1.0
+  mobile_scanner: ^5.1.1
+
+  # NFC (read tags / write tags / check availability)
+  nfc_manager: ^3.5.0
+
+  # Offline peer-to-peer (BLE + Wi-Fi Direct, no common network needed) - Android only
+  nearby_connections: ^4.2.0
+
+  # runtime permissions
+  permission_handler: ^11.3.1
+
+  # open the received link in the installed social app
+  url_launcher: ^6.3.0
+
+  # avatar fetch (GitHub public API only)
+  http: ^1.2.1
+
+  location: ^8.0.1
+
+dev_dependencies:
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true

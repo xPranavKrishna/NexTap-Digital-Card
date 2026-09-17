@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hce_service_description">NexTap - share your profile link over NFC</string>
+    <string name="hce_aid_group_description">NexTap NDEF tag</string>
+</resources>
