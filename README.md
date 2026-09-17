@@ -26,6 +26,16 @@ Add a card, pick how to send it, swipe to confirm, done.
 
 ---
 
+
+## Download
+ 
+Don't want to build it yourself? Grab the ready-made APK from the [`apk/`](apk/app-arm64-v8a-release.apk) folder — `app-arm64-v8a-release.apk`.
+ 
+- Built for **arm64-v8a** devices — this covers almost every phone made in the last several years. If your phone is very old (32-bit only), this build won't install; you'd need to build from source instead.
+- Since it's not from the Play Store, Android will warn you before installing. Tap **Install anyway** / allow installs from this source when prompted.
+- NFC sharing (tap-to-share) and Nearby (Bluetooth/Wi-Fi) only work between two Android phones — see [The honest tech reality](#the-honest-tech-reality) below for what works where.
+---
+
 ## Screenshots
 
 <!-- Drop your screenshots in a folder (e.g. /screenshots) and update the paths below -->
